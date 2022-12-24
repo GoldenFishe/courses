@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.330 --> 00:08.070
+Artificial intelligence, the development of systems which carry out tasks that normally humans are
+
+00:08.070 --> 00:08.760
+meant to do.
+
+00:09.600 --> 00:13.590
+To build artificial intelligence systems, we take an input.
+
+00:14.280 --> 00:20.850
+And then, based on a set of rules which have been predefined, we are able to obtain the output.
+
+00:22.020 --> 00:33.030
+This way of telling a computer based on a set of rules to produce a given output is known as symbolic
+
+00:33.030 --> 00:36.690
+artificial intelligence, short form symbolic A.I..
+
+00:37.650 --> 00:45.600
+This kind of A.I. was very popular in the 1950s, going up to the 1980s, especially in the gaming industry,
+
+00:45.600 --> 00:54.420
+as we could define a set of rules such that when giving us input, the current positions of different
+
+00:55.350 --> 01:03.360
+pieces on the chessboard, the computers able to decide on the next best move, which is the output.
+
+01:05.160 --> 01:10.110
+Apart from symbolic air, there are other branches of artificial intelligence.
+
+01:10.680 --> 01:17.220
+And one of them, which has become very popular in the past years, is machine learning and machine
+
+01:17.220 --> 01:17.760
+learning.
+
+01:18.150 --> 01:18.780
+We have.
+
+01:20.440 --> 01:21.160
+A model.
+
+01:21.850 --> 01:26.470
+And with this model, we pass in input and output.
+
+01:26.770 --> 01:28.680
+So notice the direction of the arrows here.
+
+01:28.690 --> 01:34.900
+We have this to get in in unlike here where this gets in and then we have this output going out.
+
+01:35.230 --> 01:42.310
+So yeah, we have firstly this input and this output, which is what we would call a data set, given
+
+01:42.310 --> 01:51.580
+that this is data from this model learns the set of rules which would symbolic we actually define.
+
+01:52.090 --> 01:59.950
+So it's symbolic, I would define this rules by hand while we're machine learning.
+
+02:00.070 --> 02:04.120
+These rules are automatically learned by the model self.
+
+02:04.840 --> 02:06.910
+And once this rules are learned.
+
+02:09.670 --> 02:11.440
+When given a new input.
+
+02:12.250 --> 02:15.910
+We use this learned model to give an output.
+
+02:16.570 --> 02:23.950
+Also, with machine learning, several branches exist and one of them is deep learning.
+
+02:24.670 --> 02:32.440
+Deep learning is a branch of machine learning which makes use of neural networks which can learn from
+
+02:33.790 --> 02:41.890
+very huge data sets going up to billions and even trillions of data points and can solve problems in
+
+02:41.890 --> 02:48.540
+computer vision, natural language processing, speech recognition, and in many other domains.
+
+02:50.340 --> 02:53.980
+Machine learning, just like deep learning, can be broken up into several parts.
+
+02:54.030 --> 02:58.470
+Supervised learning, unsupervised learning and reinforcement learning.
+
+02:59.820 --> 03:07.290
+What we just demonstrate at, yeah, was supervised learning in which we have some input data as does
+
+03:07.290 --> 03:10.170
+input and output from in our data set.
+
+03:10.590 --> 03:14.250
+Our model is trained, our model learns from that dataset.
+
+03:14.520 --> 03:20.430
+And then later on when we need to solve a problem, we pass in the input.
+
+03:20.430 --> 03:28.350
+And that learned model now is able to generate an output based on this learning, based on this previous
+
+03:28.350 --> 03:29.220
+learning process.
+
+03:29.820 --> 03:33.600
+A simple example could be an object detection.
+
+03:34.260 --> 03:42.720
+We could pass in input data or input images and they are labelled outputs.
+
+03:43.080 --> 03:50.850
+So we could have an image which contains a cell phone and then the output is labelled so that we the
+
+03:50.850 --> 03:54.510
+model knows that in this image there is actually a cell phone.
+
+03:55.290 --> 04:05.370
+And then once this model is trained over thousands or even millions of such cell phone image and output
+
+04:05.370 --> 04:05.940
+pairs.
+
+04:07.080 --> 04:13.500
+Now, when presented an image in which there is a cell phone, the model is able to see that there is
+
+04:13.500 --> 04:15.390
+a cell phone in that image.
+
+04:16.260 --> 04:18.420
+So that is supervised learning as the word goes.
+
+04:18.780 --> 04:26.610
+The learning process is supervised since we have the input and we also have the output.
+
+04:28.140 --> 04:35.470
+And so the supervision is done by the fact that when, for example, we have an input image containing
+
+04:35.470 --> 04:42.420
+the cell phone, the output clearly states that there is a cell phone in that image.
+
+04:43.830 --> 04:49.770
+The next and most promising subsection is the unsupervised learning and of supervised learning.
+
+04:50.520 --> 04:52.950
+The model learns from just the inputs.
+
+04:52.950 --> 04:55.530
+So there is no supervision, there is no outputs.
+
+04:55.740 --> 04:57.740
+We just pass in the input the model learns.
+
+04:57.750 --> 04:59.700
+And then next I want to pass the input.
+
+04:59.700 --> 05:03.630
+The model is able to generate outputs based on this learning model.
+
+05:03.960 --> 05:05.400
+We took only the inputs.
+
+05:05.970 --> 05:12.570
+We see that there is a limitation with the supervised learning method because with supervised learning
+
+05:12.720 --> 05:15.360
+we have to get the inputs first.
+
+05:15.360 --> 05:22.020
+And then we also need to annotate and see that this input, for example, contains a cellphone.
+
+05:22.020 --> 05:26.250
+This input doesn't contain the cell phone and so on and so forth, both unsupervised learning and we
+
+05:26.250 --> 05:28.890
+just simply passing the inputs on the model learns.
+
+05:29.130 --> 05:38.190
+So we see that if we are to build a system which works on real data, we will be able to do that quickly
+
+05:38.190 --> 05:43.110
+and more efficiently with the unsupervised learning techniques, since we don't necessarily need to
+
+05:43.110 --> 05:44.940
+annotate every input.
+
+05:46.410 --> 05:56.070
+A clear example of the power of unsupervised learning was shown recently with the paper which used unsupervised
+
+05:56.070 --> 05:59.280
+learning to train speech recognition models.
+
+06:00.030 --> 06:05.800
+Now in speech recognition, generally we have the data so that we have the speech.
+
+06:05.800 --> 06:07.470
+That's the actual.
+
+06:08.590 --> 06:12.490
+Sound signal and then the output is a transcription.
+
+06:12.730 --> 06:18.670
+So the model is going to learn how to get this kind of sound signal and then I'll put the right transcription.
+
+06:19.480 --> 06:23.890
+In a language like English, it's very easy to have.
+
+06:25.030 --> 06:31.900
+I'll build such large data sets since the billions of people will speak English around the world.
+
+06:32.590 --> 06:38.680
+Now what are those languages in which gathering such data is very challenging?
+
+06:38.920 --> 06:44.680
+Like, say, I was in the northern part of Cameroon or Orissa in India.
+
+06:45.550 --> 06:50.950
+This becomes challenging as getting the right annotations isn't very easy.
+
+06:51.790 --> 06:58.480
+So if we have a kind of learning system in which we just simply pass on the inputs and the model learns,
+
+06:58.900 --> 07:06.640
+then that's perfect for such languages as all we need to do now is to allow people speak, and then
+
+07:06.640 --> 07:14.110
+the model learns how to do the transcription automatically without necessarily having the input signal
+
+07:14.290 --> 07:17.350
+and the output transcription during the learning process.
+
+07:18.680 --> 07:25.270
+The other type of machine learning is reinforcement learning to understand reinforcement learning.
+
+07:25.310 --> 07:30.050
+We are going to consider an environment, an interpreter and an agent.
+
+07:30.830 --> 07:36.830
+The interpreter gets information about the environment and then passes it on to the agent, and then
+
+07:36.830 --> 07:42.170
+the interpreter rewards the agents depending on how well it took this action.
+
+07:42.950 --> 07:49.700
+And so at the end, we have this agent, which is learning how to take the best actions since is being
+
+07:49.700 --> 07:51.230
+rewarded by the interpreter.
+
+07:52.190 --> 07:55.370
+A simple application of this could be in the chess game.
+
+07:56.120 --> 07:58.060
+So our environment is a chess board.
+
+07:58.460 --> 08:05.750
+And then we are trying to train this agents to make the best moves based on the current state of the
+
+08:05.750 --> 08:11.750
+environment and also using the reward system from the interpreter.
+
+08:12.260 --> 08:19.970
+The reasons why machine learning and deep learning to be more precise, has grown in popularity in the
+
+08:20.450 --> 08:27.050
+past years is because firstly there is availability of this training data.
+
+08:28.360 --> 08:33.100
+And this training data come from many sources on the Internet.
+
+08:33.700 --> 08:43.990
+We have Wikipedia, YouTube and Twitter, which are just a few of the thousands of Web pages and applications
+
+08:43.990 --> 08:48.340
+from which users input data every second.
+
+08:49.540 --> 08:58.960
+And since this machine learning models feed on this data, it becomes obvious that the availability
+
+08:58.960 --> 09:04.900
+of such data has made the machine learning field very popular.
+
+09:07.100 --> 09:12.650
+Nonetheless, it should be noted that when working with classical machine learning algorithms, as we
+
+09:12.650 --> 09:20.870
+increase the data, the performance starts to stagnate at a certain point, and that's where deep neural
+
+09:20.870 --> 09:21.890
+networks come in.
+
+09:22.700 --> 09:29.870
+It happens that with deep neural networks, as this data increases, the performance to increases,
+
+09:30.920 --> 09:36.590
+and that's why the neural networks have received so much attention lately.
+
+09:37.790 --> 09:44.960
+The next reason why machine learning has become a hot topic is because of the availability of hardware,
+
+09:45.530 --> 09:53.420
+especially the GPUs and the CPU's GPU actually stands for graphical processing unit and TPU tensor processing
+
+09:53.420 --> 09:53.780
+unit.
+
+09:54.470 --> 10:02.840
+This devices, although previously known for their use in the gaming industry with the GPU graphics
+
+10:02.840 --> 10:09.590
+cards, now actually have using machine learning.
+
+10:10.670 --> 10:19.820
+Reason being that many times we are training our very deep models on very large data sets.
+
+10:20.210 --> 10:28.100
+By deep within the mean if we have this model with let's just take this as inputs and then we have outputs.
+
+10:28.400 --> 10:31.110
+So this model has to layers in between.
+
+10:31.110 --> 10:31.940
+And this is a layer.
+
+10:32.330 --> 10:33.650
+I would say this is a layer.
+
+10:33.950 --> 10:35.360
+This is a layer and this a layer.
+
+10:35.600 --> 10:37.190
+There's an input and there's the output.
+
+10:37.700 --> 10:41.330
+So with this too, we layers we would call hidden layers.
+
+10:41.590 --> 10:51.380
+I would say this neural network is shallower compared to on neural network with 20 of this hidden layers.
+
+10:52.370 --> 10:59.390
+And so, by the way, our meaning the amount of hidden layers which are stacked now coming back to the
+
+10:59.390 --> 11:05.510
+GPUs training, such models are very computationally expensive.
+
+11:06.380 --> 11:14.690
+And so if we could make use of the parallel nature of this computing devices, it becomes interest in
+
+11:14.690 --> 11:23.060
+the sense that we can now popularize the training process and hence speed up this training process.
+
+11:24.200 --> 11:32.870
+Apart from data on hardware, the other point which makes machine learning very popular today is the
+
+11:32.870 --> 11:37.940
+advancement in the kind of machine learning and deep learning algorithms which have been built.
+
+11:38.810 --> 11:44.000
+And throughout this cause, we shall look in details, this algorithm.

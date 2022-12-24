@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.180 --> 00:07.980
+In this course, we shall learn how to build deep learning based products in diverse domain, starting
+
+00:07.980 --> 00:18.900
+from the data, the model building, model evaluation, model corrections, and then shipping a deep
+
+00:18.900 --> 00:19.740
+learning product.
+
+00:20.160 --> 00:28.680
+We shall also go from fundamental machine learning theory to state of art deep learning models.
+
+00:29.400 --> 00:34.770
+But given that the programming language we shall be using throughout this course is going to be Python.
+
+00:35.230 --> 00:44.550
+We have this Python crash course and TensorFlow installation section in which we shall learn all the
+
+00:44.550 --> 00:52.740
+python necessary for this course, going from variables to conditional statements, loops, classes,
+
+00:53.280 --> 00:59.430
+decorators, generators and popular libraries like numpy and map plot leap.
+
+01:01.610 --> 01:10.730
+Then we shall introduce the core mission learning theory and uses theory in solving several problems
+
+01:11.660 --> 01:17.930
+while building our own mini deep learning framework and talking about frameworks.
+
+01:18.380 --> 01:22.400
+In the next section we shall dive into TensorFlow too.
+
+01:22.850 --> 01:32.690
+We'll start by understanding how this TensorFlow two is structured and how to make the best use of TensorFlow
+
+01:33.350 --> 01:36.590
+in coming out with deep learning solutions.
+
+01:37.400 --> 01:43.700
+Also in the section which I look at a special type of neural network called convolutional neural networks
+
+01:44.450 --> 01:47.060
+and the recurrent neural networks.
+
+01:47.690 --> 01:55.040
+Using the convolutional neural networks popularly known as carve nets, we shall build an image classification
+
+01:55.340 --> 01:57.650
+system and AI using the earnings.
+
+01:57.980 --> 02:01.940
+We shall build a sentiment classification system.
+
+02:03.180 --> 02:08.940
+Then after getting all those fundamentals right, we move to the first domain of application, which
+
+02:08.940 --> 02:09.960
+is in that vision.
+
+02:11.250 --> 02:18.240
+The first computer vision project, which our work on is that of breast cancer classification, where
+
+02:18.240 --> 02:26.340
+we shall use tissue data or breast tissue data obtained from a microscope.
+
+02:27.960 --> 02:30.870
+To predict whether an input image.
+
+02:32.510 --> 02:33.950
+Got him from those tissues.
+
+02:35.370 --> 02:38.130
+Is one which contains cancerous cells or not.
+
+02:38.970 --> 02:47.400
+Then we shall see several corrective measures which could be applied to make our model more robust as
+
+02:47.400 --> 02:50.760
+this kind of data sets tend to be imbalanced.
+
+02:51.960 --> 02:54.090
+Then we move on to object detection.
+
+02:54.130 --> 03:02.160
+Now the second computer vision project, which I'll work on, where I will start by using the YOLO version
+
+03:02.160 --> 03:07.860
+one to correctly classify and detect objects in an image.
+
+03:08.670 --> 03:17.250
+And then we shall move on to the yellow version three, which is a better version or a better variant
+
+03:17.250 --> 03:18.750
+of the yellow version one.
+
+03:19.680 --> 03:28.110
+Apart from using state of art models like the yellow model, we shall also see how to build our own
+
+03:28.110 --> 03:29.340
+custom data sets.
+
+03:30.120 --> 03:37.110
+Now, looking at this kind of data set or looking at this kind of problem and which data set is composed
+
+03:37.110 --> 03:47.640
+of input images and an output which is either you have cancer or not, it's easier to annotate them
+
+03:47.640 --> 03:54.210
+since once you've got the images, all you need to do is to see whether they are given images one which
+
+03:54.210 --> 03:59.430
+contains cancer or not, or one which is made of cancerous cells or not.
+
+04:00.150 --> 04:08.790
+But with object detection datasets, we not only have to correctly see that in this image we have a
+
+04:08.790 --> 04:16.650
+car, a person, truck, umbrella, car, person, car, car, car.
+
+04:17.580 --> 04:25.500
+And then we also need to specify that this car, for example, is located at this exact position using
+
+04:25.500 --> 04:26.730
+this bounding box.
+
+04:27.720 --> 04:33.630
+So we'll see that if we have to build this kind of data set given inputs and annotations.
+
+04:35.140 --> 04:36.760
+It becomes very tedious.
+
+04:38.140 --> 04:43.540
+So we shall look at tools which we will use to make this kind of.
+
+04:45.300 --> 04:46.740
+Annotation tasks.
+
+04:46.920 --> 04:48.000
+Very easy.
+
+04:48.960 --> 04:52.410
+Then we move to object counting and object counting.
+
+04:52.440 --> 04:58.050
+We shall see how to get this kind of inputs and training model.
+
+04:58.260 --> 05:06.420
+We able to generate a density map which can be used to count the number of people in this image right
+
+05:06.420 --> 05:06.630
+here.
+
+05:07.260 --> 05:15.120
+We shall go in-depth in understanding the generation of this dance, the map, and how to train such
+
+05:15.120 --> 05:15.660
+models.
+
+05:16.870 --> 05:28.290
+And the next will be email segmentation in which, when given an input without training, a model capable
+
+05:28.290 --> 05:31.950
+of separating the objects from the background.
+
+05:32.640 --> 05:42.870
+All these projects will be done using TensorFlow to best practices to make your work as easy as possible.
+
+05:44.340 --> 05:47.040
+Then we can move on to natural language processing.
+
+05:47.760 --> 05:55.740
+After studying recurrent neural networks and convolutional networks and the master neural network using
+
+05:55.740 --> 06:06.820
+TensorFlow two section, we shall now look at more advanced recurrent neural networks, like, for example,
+
+06:06.820 --> 06:12.330
+the sequence sequence model, which could be used in translation tags.
+
+06:13.970 --> 06:19.850
+Then from then we shall look at attention models and also the transformer model.
+
+06:20.810 --> 06:22.640
+All these will be done from scratch.
+
+06:22.640 --> 06:27.980
+And you get to understand in that how all these models are built.
+
+06:29.270 --> 06:37.580
+So after the translation project, which I'll go to question Afrin, where we saw I use this quiet dataset
+
+06:38.570 --> 06:41.880
+to train a model which when given a question like this.
+
+06:41.900 --> 06:42.290
+All right.
+
+06:42.290 --> 06:47.600
+I wish when given a text like this and when posed a question like in this case, what is the process
+
+06:47.600 --> 06:49.990
+of constructing the building infrastructure?
+
+06:50.450 --> 06:56.570
+It's able to select the region in this text where the answer to this equation lies.
+
+06:57.140 --> 07:00.710
+So here we have, for example, ground to answer construction in the construction.
+
+07:01.040 --> 07:09.760
+So basically this, this and we see that our model could also pick out a series of words like 6 to 9%.
+
+07:09.920 --> 07:10.370
+So you.
+
+07:12.380 --> 07:14.750
+I'm not just only a single word.
+
+07:15.590 --> 07:17.840
+This will be done using the terms for my motto.
+
+07:18.350 --> 07:25.940
+And then we shall use a special kind of attention model known as the l h attention which happens to
+
+07:25.940 --> 07:31.490
+be more efficient than the attention model which was used in the original transformer paper.
+
+07:32.450 --> 07:39.680
+From here we are move to speech data where we shall build a speech recognition system which takes us
+
+07:39.680 --> 07:43.220
+input, sound, and then output transcriptions.
+
+07:43.820 --> 07:51.350
+Yeah, we shall go in that in understanding how sound data is treated before passing into a deep learning
+
+07:51.350 --> 07:55.160
+model and also how to train such models.
+
+07:58.440 --> 08:06.930
+The next would be an image caption a system in which, when given this kind of inputs model is able
+
+08:06.930 --> 08:08.760
+to come up with such tags.
+
+08:10.080 --> 08:13.260
+For example, here we have a ten dog is playing in the grass.
+
+08:14.250 --> 08:16.890
+From this we move to generate modelling.
+
+08:19.200 --> 08:25.050
+Here again, we are going to go in-depth understanding the generative adversarial neural networks,
+
+08:26.010 --> 08:31.260
+which are popularly known for the application in data generation.
+
+08:31.530 --> 08:39.450
+As you could see here, all these images are thick as this people don't actually exist.
+
+08:40.590 --> 08:48.630
+Finally, we shall ship a deep learning product which can be used anywhere in the world for every project
+
+08:48.630 --> 08:49.920
+we've listed out here.
+
+08:50.460 --> 08:56.910
+You shall be expected to build your own project, which is meant to be personalised.
+
+08:57.420 --> 09:06.030
+You also have to be able to document and share your work as this will make you grow faster and further
+
+09:06.030 --> 09:06.810
+and just domain.
+
+09:07.890 --> 09:11.910
+So firstly, you have to upload all your projects on your GitHub account.
+
+09:12.660 --> 09:18.540
+You also need to share your projects on LinkedIn, Twitter, YouTube and Facebook.
+
+09:19.230 --> 09:22.160
+But you are advised to have at least three out of this.
+
+09:22.170 --> 09:29.550
+So we suppose firstly you must have others a GitHub account and then you have to see at least two out
+
+09:29.550 --> 09:33.300
+of the four in which you shall share works.
+
+09:34.080 --> 09:35.310
+Let's also include medium.
+
+09:35.310 --> 09:40.680
+So you could pick, let's say three out of those five plus your GitHub account.
+
+09:41.970 --> 09:50.820
+And also in this last project, you shall be expected to gather your own data and not just use already
+
+09:50.820 --> 09:51.510
+made data.
+
+09:52.200 --> 09:54.720
+Also, we lay much emphasis on feedback.
+
+09:55.020 --> 10:01.340
+So in cases where you have any difficulty, you could always get to us in the class forum.

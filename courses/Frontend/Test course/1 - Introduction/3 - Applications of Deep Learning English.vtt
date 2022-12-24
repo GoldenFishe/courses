@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.180 --> 00:03.810
+Deep learning could be applied in several industries.
+
+00:04.560 --> 00:12.120
+One of those industries is the automobile industry, and today we have self-driving cars.
+
+00:12.600 --> 00:15.480
+Thanks to the deep learning techniques.
+
+00:16.170 --> 00:22.680
+Yeah, this image shows exactly what a Tesla self-driving car sees.
+
+00:23.370 --> 00:33.210
+We see how this car, which is driverless, is able to understand its environment visually and take
+
+00:33.210 --> 00:34.290
+the right decisions.
+
+00:36.150 --> 00:43.740
+This means that this car, for example, is able to detect traffic lights and not only detect this traffic
+
+00:43.740 --> 00:46.830
+lights, but get their current state.
+
+00:47.400 --> 00:54.720
+So it means if we have a traffic light on the road, it will be able to use the images coming from the
+
+00:54.720 --> 01:02.760
+camera, which has been stored in the car to know where to pass, to stop or to get ready to move.
+
+01:03.510 --> 01:10.920
+These are really great advancements, but it is important to note that we are pretty far from the human
+
+01:10.920 --> 01:17.580
+level kind of intelligence still in the automobile industry and manufacturing in general.
+
+01:17.940 --> 01:28.950
+We see how the startup learning A.I. is using deep learning to automatically detect defects in parts
+
+01:28.950 --> 01:30.150
+which have been produced.
+
+01:31.290 --> 01:37.980
+And so companies using this kind of products can gain in time and resources as now this kind of defect
+
+01:37.980 --> 01:39.000
+detection could be done.
+
+01:40.110 --> 01:40.440
+Yeah.
+
+01:40.440 --> 01:46.290
+Again, we're seeing how this robots are automatically working in this assembly unit.
+
+01:46.860 --> 01:57.030
+And apart from this kind of applications, A.I. could be used in coming up with very efficient energy
+
+01:57.030 --> 01:58.620
+systems for cars.
+
+01:59.040 --> 02:03.690
+The next domain in which we could apply deep learning is indeed a generation.
+
+02:04.500 --> 02:10.860
+Now, when you look at this image of these different images, what may come to your mind is you have
+
+02:10.860 --> 02:11.670
+this image.
+
+02:11.910 --> 02:18.930
+And then this is like a caption we read a man patting a small dog and smiling for a camera.
+
+02:19.380 --> 02:23.040
+Yeah, we have a man in a business suit sitting in front of paper work.
+
+02:23.790 --> 02:29.160
+But what's interesting to note here is that actually these are not real images.
+
+02:29.580 --> 02:30.840
+Those images, right?
+
+02:30.840 --> 02:31.080
+Yeah.
+
+02:31.080 --> 02:39.930
+Were generated just by a neural network which was fed with this input sentences.
+
+02:40.560 --> 02:42.150
+So the input, yeah.
+
+02:42.150 --> 02:45.390
+For example, was there are a lot of people that are on the beach.
+
+02:45.600 --> 02:50.220
+And so this was generated in the entertainment industry.
+
+02:51.030 --> 02:54.870
+Artificial intelligence is used for recommender systems.
+
+02:56.100 --> 03:02.970
+If we take, for example, this video from YouTube, if I'm to watch this video or if you watch this
+
+03:02.970 --> 03:09.630
+video on YouTube, you will notice that after a while, YouTube tends to recommend to you videos which
+
+03:09.630 --> 03:14.940
+are related to what you've watched previously, and this is done automatically.
+
+03:15.610 --> 03:17.010
+Based on this.
+
+03:17.010 --> 03:22.260
+We see again another application which is the automatic generation of this subtitles.
+
+03:22.650 --> 03:31.950
+This is actually speech recognition of speech transcription as when neural learn upload this video on
+
+03:31.950 --> 03:32.430
+YouTube.
+
+03:33.060 --> 03:40.650
+We don't actually upload those videos with the subtitles, but YouTube automatically generates this
+
+03:40.830 --> 03:43.740
+by just getting the sound from the video.
+
+03:44.850 --> 03:52.950
+And this has a very great application for people with auditory problems still in the media entertainment
+
+03:52.950 --> 03:53.670
+industry.
+
+03:54.210 --> 04:03.470
+We have the image captioning in which when given an input image, the machine is able to understand
+
+04:03.480 --> 04:06.690
+an image and produce this kind of output.
+
+04:07.230 --> 04:14.880
+So we have, for example, a group of young people playing a game of Frisbee, two dogs playing the
+
+04:14.880 --> 04:18.420
+grass, and all the examples we see here.
+
+04:20.530 --> 04:24.760
+A clear example of how this is using is in Google photos.
+
+04:25.810 --> 04:30.730
+Once you take photos, what goes on in the background is that this.
+
+04:32.110 --> 04:35.960
+Kind of made that data is been starved of that image.
+
+04:37.360 --> 04:44.500
+And so later on, if you search for see dark images, you know, phone or the photos, this photo is
+
+04:44.500 --> 04:45.220
+going to pop up.
+
+04:46.420 --> 04:56.710
+And that's because an AI algorithm has initially generated this kind of output metadata on which now
+
+04:56.710 --> 05:02.080
+could be used subsequently to search for information which is stored in this image.
+
+05:03.010 --> 05:06.790
+We also have object detection, which is a very popular application of deep learning.
+
+05:07.180 --> 05:15.580
+Yeah, we see clearly how this we have this input image and the algorithm is able to detect all, first
+
+05:15.580 --> 05:24.010
+of all correctly see that there's a car, trunk person, umbrella car and all of this in this image.
+
+05:24.280 --> 05:30.910
+And not only doing that, but look at exactly where this different objects are found in the image.
+
+05:32.000 --> 05:35.980
+Another very useful application of deep learning is in the health care industry.
+
+05:36.730 --> 05:43.120
+Yeah, we'll see how it could be used in detecting cancer, finding a breast tissue.
+
+05:43.840 --> 05:50.400
+And apart from breast cancer, several other that most of this could be done using deep learning.
+
+05:51.250 --> 05:58.870
+Still, in the healthcare industry, deep learning could be used in drug discovery and even in the building
+
+05:58.870 --> 06:07.630
+of wearables like glasses, which help visually impaired people to better perceive the environment.
+
+06:07.960 --> 06:15.310
+It should also be noted that in such detection systems, the A.I. could be built to help medical practitioners.
+
+06:17.140 --> 06:24.130
+Not just by replacing them, but by actually assisting them in doing the job better and more efficiently
+
+06:24.910 --> 06:25.930
+in the music world.
+
+06:26.470 --> 06:33.510
+Yeah, it could be used in generation of music and even composition of music and in telecommunications.
+
+06:33.550 --> 06:41.530
+Just like with many other domains, we have virtual assistants which help companies respond to thousands
+
+06:41.530 --> 06:50.260
+of requests from clients without necessarily having employees to check on those requests.
+
+06:51.040 --> 06:53.130
+In banking and finance, yeah.
+
+06:53.170 --> 07:02.800
+It could be used in helping people do better investments by helping them their investment strategies.
+
+07:03.280 --> 07:10.540
+You could also be very important in fraud detection by monitoring the system on noticing anomalies.
+
+07:11.320 --> 07:19.630
+Apart from those domains, there are so many other domains in which deep learning could be applied and
+
+07:19.630 --> 07:24.640
+even some other domains in which deep learning has not yet been applied.
+
+07:25.210 --> 07:34.480
+And so we expect you to tap into potentials of deep learning by applying it in several different domains.
+
+07:35.320 --> 07:42.160
+It should also be noted that before applying deep learning in a given domain, you have to do a conscious
+
+07:42.160 --> 07:51.640
+effort to understand, firstly, how that domain works and better still work with domain experts so
+
+07:51.640 --> 07:54.610
+that you could come up with the best possible solutions.
+
+07:55.360 --> 08:03.100
+After finishing this course, you also have to be able to discuss with a domain expert who hasn't yet
+
+08:03.220 --> 08:10.720
+come in touch with deep learning and be able to understand clearly how the learning could be applied
+
+08:10.720 --> 08:12.040
+in that specific domain.
+
+08:12.640 --> 08:18.850
+But also be careful not to overuse deep learning, as there are many problems which could be solved
+
+08:18.850 --> 08:26.140
+with simple classical machine learning algorithms, which many times practitioners tend to use deep
+
+08:26.140 --> 08:33.130
+learning algorithms of which the simple classical machine learning algorithms would have been best fit
+
+08:33.130 --> 08:36.250
+and come up with even better results.
+
+08:36.610 --> 08:43.300
+Welcome to this very interesting and ever changing domain.
