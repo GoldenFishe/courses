@@ -1,12 +1,14 @@
 import { Module } from '@nestjs/common';
-import { CatalogService } from './catalog.service';
-import { CatalogController } from './catalog.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Course } from './course.entity';
+
+import { CourseService } from './course.service';
+import { CourseController } from './course.controller';
+import { Course } from './entities/course.entity';
+import { FirebaseModule } from '../firebase/firebase.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Course])],
-  controllers: [CatalogController],
-  providers: [CatalogService],
+  imports: [TypeOrmModule.forFeature([Course]), FirebaseModule],
+  controllers: [CourseController],
+  providers: [CourseService],
 })
-export class CatalogModule {}
+export class CourseModule {}

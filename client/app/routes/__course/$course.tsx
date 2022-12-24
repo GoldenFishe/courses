@@ -5,7 +5,7 @@ import Player from '../../components/Player';
 
 export async function loader({ params }: { params: { course: string } }) {
   const res = await fetch(
-    `http://localhost:6000/api/v1/course/${params.course}`,
+    `https://courses-gfeg27umxq-uc.a.run.app/api/v1/course/${params.course}`,
   );
   return await res.json();
 }

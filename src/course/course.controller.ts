@@ -1,26 +1,26 @@
-import { Controller, Get, StreamableFile } from '@nestjs/common';
-import { createReadStream } from 'fs';
-import { join } from 'path';
+import {
+  ClassSerializerInterceptor,
+  Controller,
+  Get,
+  Param,
+  UseInterceptors,
+} from '@nestjs/common';
 
-import { CatalogService } from './catalog.service';
+import { CourseService } from './course.service';
 
-@Controller('catalog')
-export class CatalogController {
-  constructor(private catalogService: CatalogService) {}
+@Controller('course')
+export class CourseController {
+  constructor(private catalogService: CourseService) {}
 
-  // @Get('/')
-  // getCourses() {
-  //   return this.catalogService.getAll();
-  // }
+  @UseInterceptors(ClassSerializerInterceptor)
+  @Get('/')
+  getCourses() {
+    return this.catalogService.getAll();
+  }
 
-  // @Get('/:id')
-  // getCourse(@Param('id') id: string) {
-  //   return this.catalogService.getById(id);
-  // }
-
-  @Get('/test')
-  getTest(): StreamableFile {
-    const file = createReadStream(join('assets', 'test.mp4'));
-    return new StreamableFile(file);
+  @UseInterceptors(ClassSerializerInterceptor)
+  @Get('/:courseId')
+  getCourse(@Param('courseId') courseId: string) {
+    return this.catalogService.getById(courseId);
   }
 }

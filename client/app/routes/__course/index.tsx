@@ -9,7 +9,12 @@ import type { Course } from '../../domain/Course';
 import { formatDuration } from '../../utils';
 
 export async function loader() {
-  const res = await fetch('http://localhost:8080/api/v1/course');
+  const res = await fetch(
+    'https://courses-gfeg27umxq-uc.a.run.app/api/v1/course',
+  );
+  const res1 = await fetch(
+    'https://courses-gfeg27umxq-uc.a.run.app:6000/api/v1/course',
+  );
   const courses: Course[] = await res.json();
   return courses.reduce((acc: Record<Course['category'], Course[]>, cur) => {
     if (!acc[cur.category]) acc[cur.category] = [];
